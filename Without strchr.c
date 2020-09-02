@@ -18,5 +18,12 @@ int main()
 		}
 	}
 	printf("%s",str1);
+	/*
+	char str1[] = "Bangalore", chr = 'g';
+	char *chrpos;
+	chrpos = strchr(str1, chr);
+	if(chrpos)
+	printf("%s", chrpos);
+	*/
 	return 0;
 }
